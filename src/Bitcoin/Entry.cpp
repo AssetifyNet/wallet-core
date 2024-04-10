@@ -22,6 +22,7 @@ bool Entry::validateAddress(TWCoinType coin, const std::string& address, const P
     case TWCoinTypeBitcoin:
     case TWCoinTypeDigiByte:
     case TWCoinTypeLitecoin:
+    case TWCoinTypeKaspa:
     case TWCoinTypeMonacoin:
     case TWCoinTypeQtum:
     case TWCoinTypeViacoin:
@@ -73,6 +74,7 @@ std::string Entry::deriveAddress(TWCoinType coin, const PublicKey& publicKey, TW
     switch (coin) {
     case TWCoinTypeBitcoin:
     case TWCoinTypeLitecoin:
+    case TWCoinTypeKaspa:
     case TWCoinTypeDigiByte:
     case TWCoinTypeViacoin:
     case TWCoinTypeBitcoinGold:

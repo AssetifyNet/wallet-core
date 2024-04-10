@@ -62,6 +62,7 @@ const FeeCalculator& getFeeCalculator(TWCoinType coinType, bool disableFilter) n
     case TWCoinTypeBitcoinGold:
     case TWCoinTypeDigiByte:
     case TWCoinTypeLitecoin:
+    case TWCoinTypeKaspa:
     case TWCoinTypeViacoin:
     case TWCoinTypeGroestlcoin:
     case TWCoinTypeSyscoin:

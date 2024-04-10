@@ -1448,6 +1448,39 @@
     }
   },
   {
+    "id": "kaspa",
+    "name": "Kaspa",
+    "coinId": 111111,
+    "symbol": "KAS",
+    "decimals": 8,
+    "blockchain": "Bitcoin",
+    "derivation": [
+      {
+        "path": "m/44'/111111'/0'/0/0",
+        "xpub": "kpub",
+        "xprv": "kprv"
+      }
+    ],
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1",
+    "p2pkhPrefix": 1,
+    "p2shPrefix": 8,
+    "hrp": "kaspa:",
+    "publicKeyHasher": "sha256ripemd",
+    "base58Hasher": "sha256d",
+    "explorer": {
+      "url": "https://blockchair.com",
+      "txPath": "/bitcoin-cash/transaction/",
+      "accountPath": "/bitcoin-cash/address/"
+    },
+    "info": {
+      "url": "https://bitcoincash.org",
+      "source": "https://github.com/trezor/blockbook",
+      "rpc": "",
+      "documentation": "https://github.com/trezor/blockbook/blob/master/docs/api.md"
+    }
+  },
+  {
     "id": "bitcoincash",
     "name": "Bitcoin Cash",
     "coinId": 145,

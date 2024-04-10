@@ -42,6 +42,10 @@ enum TWHDVersion {
     // Dogecoin
     TWHDVersionDGUB = 0x02facafd,
     TWHDVersionDGPV = 0x02fac398,
+
+    // Kaspa
+    TWHDVersionKPUB = 0x038f332e,
+    TWHDVersionKPRV = 0x038f2ef4
 };
 
 /// Determine if the HD Version is public
